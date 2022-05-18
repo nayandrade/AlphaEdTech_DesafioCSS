@@ -8,9 +8,15 @@
   }
 
 a {
+    color: rgb(28, 28, 28);
     text-decoration: none;
     color: inherit;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
 }
+
 
 body {
     background-color: #BFB8B3;
@@ -45,18 +51,20 @@ footer {
     padding: 50px;    
 }
 
-span {
-    margin: 20px;
-    font-weight: 600;
-    font-size: 20px;
-    cursor: pointer;
-}
+
 
 h1 {
     font-family: 'tangerine', serif;
     font-size: 300px;
     margin-top: 20px;
     z-index: 1;
+}
+
+.sub {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -93,5 +101,9 @@ h1 {
 .image img {
    height: 105%;
    
+}
+
+a:hover {
+    transform: scale(1.1);
 }
 
