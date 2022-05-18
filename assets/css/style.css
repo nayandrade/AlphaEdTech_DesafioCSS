@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "tangerine";
+    src: url("../font/tangerine_bold-webfont.woff2");
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #BFB8B3;
+    font-family: 'Roboto Flex', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #DDD8D5;
+    width: 60%;
+    min-width: 1000px;
+    height: 750px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding: 50px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;    
+}
+
+span {
+    margin: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'tangerine', serif;
+    font-size: 300px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    bottom: -250px;
+    border-radius: 50%;
+    background: rgb(255,249,244);
+    background: radial-gradient(circle, rgba(255,249,244,1) 0%, rgba(191,184,179,1) 54%, rgba(191,184,179,1) 100%);  
+}
+
+.image img {
+   height: 105%;
+   
+}
+
